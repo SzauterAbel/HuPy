@@ -1,0 +1,20 @@
+
+ha szöveg(3) == 3:
+   kiír("3 egyenlő 3-mal")
+különben:
+   kiír("3 nem egyenlő 3-mal")
+
+ism elem eleme sorozat(0, 5):
+   kiír(elem)
+
+függvény fibonacci(n):
+   l = [1, 1]
+   amíg hossz(l) < n:
+      utolsó_elem = l[hossz(l)-1]
+      utolsó_előtti_elem = l[hossz(l)-2]
+      l.hozzáad(utolsó_elem + utolsó_előtti_elem)
+   visszaad l[hossz(l)-1]
+
+ism elem eleme sorozat(1, 15):
+   kiír(fibonacci(elem))
+
